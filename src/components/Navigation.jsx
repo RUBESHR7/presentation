@@ -20,7 +20,7 @@ const Navigation = ({ sections, activeSection }) => {
                     {/* Logo */}
                     <div className="flex items-center space-x-3 cursor-pointer z-20" onClick={() => scrollToSection('hero')}>
                         <img
-                            src="/images/logo.png"
+                            src="images/logo.png"
                             alt="Creatzion Technology"
                             className="h-20 w-auto object-contain"
                         />

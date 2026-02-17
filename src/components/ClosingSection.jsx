@@ -82,7 +82,7 @@ const ClosingSection = () => {
                     <div className="flex items-center justify-center space-x-3 mb-4">
                         <div className="bg-white p-2 rounded-xl">
                             <img
-                                src="/images/logo.png"
+                                src="images/logo.png"
                                 alt="Creatzion Technology Logo"
                                 className="h-10 w-auto"
                             />
