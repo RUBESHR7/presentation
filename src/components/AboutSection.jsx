@@ -79,20 +79,7 @@ const AboutSection = () => {
                             to bridge the gap between traditional education and technology, creating seamless
                             experiences for students, teachers, and parents.
                         </p>
-                        <div className="flex flex-wrap justify-center gap-6">
-                            <div className="bg-white px-8 py-4 rounded-xl shadow-md">
-                                <div className="text-3xl font-bold text-blue-600 mb-1">50+</div>
-                                <div className="text-sm text-gray-600">Schools Partnered</div>
-                            </div>
-                            <div className="bg-white px-8 py-4 rounded-xl shadow-md">
-                                <div className="text-3xl font-bold text-blue-600 mb-1">10K+</div>
-                                <div className="text-sm text-gray-600">Active Users</div>
-                            </div>
-                            <div className="bg-white px-8 py-4 rounded-xl shadow-md">
-                                <div className="text-3xl font-bold text-blue-600 mb-1">99.9%</div>
-                                <div className="text-sm text-gray-600">Uptime</div>
-                            </div>
-                        </div>
+
                     </div>
                 </motion.div>
             </div>
