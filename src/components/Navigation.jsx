@@ -22,17 +22,17 @@ const Navigation = ({ sections, activeSection }) => {
                         <img
                             src="images/logo.png"
                             alt="Creatzion Technology"
-                            className="h-20 w-auto object-contain"
+                            className="h-14 w-auto object-contain"
                         />
                     </div>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden lg:flex items-center space-x-8 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white border border-blue-500 rounded-full px-10 py-3 shadow-lg">
-                        {sections.slice(0, 8).map((section, index) => (
+                    <div className="hidden lg:flex items-center space-x-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white border border-blue-500 rounded-full px-8 py-2.5 shadow-lg whitespace-nowrap">
+                        {sections.slice(0, 5).map((section, index) => (
                             <button
                                 key={section.id}
                                 onClick={() => scrollToSection(section.id)}
-                                className={`text-base font-medium transition-colors ${activeSection === index
+                                className={`text-sm font-medium transition-colors ${activeSection === index
                                     ? 'text-blue-600 font-bold'
                                     : 'text-gray-600 hover:text-blue-500'
                                     }`}
@@ -41,11 +41,11 @@ const Navigation = ({ sections, activeSection }) => {
                             </button>
                         ))}
                         <div className="relative group">
-                            <button className="text-base font-medium text-gray-600 hover:text-blue-500 flex items-center">
+                            <button className="text-sm font-medium text-gray-600 hover:text-blue-500 flex items-center">
                                 More ▾
                             </button>
-                            <div className="absolute right-0 mt-4 w-48 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all p-2">
-                                {sections.slice(8).map((section, index) => (
+                            <div className="absolute right-0 mt-4 min-w-[180px] bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all p-2">
+                                {sections.slice(5).map((section, index) => (
                                     <button
                                         key={section.id}
                                         onClick={() => scrollToSection(section.id)}
