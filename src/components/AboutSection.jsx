@@ -36,7 +36,7 @@ const AboutSection = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-5xl font-bold text-gray-900 mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                         About <span className="gradient-text">Creatzion Technology</span>
                     </h2>
                     <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -44,7 +44,7 @@ const AboutSection = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
                     {features.map((feature, index) => (
                         <motion.div
                             key={index}
@@ -68,7 +68,7 @@ const AboutSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    className="glass-card p-12 rounded-3xl text-center relative overflow-hidden"
+                    className="glass-card p-6 md:p-12 rounded-3xl text-center relative overflow-hidden"
                 >
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-green-500/10"></div>
                     <div className="relative z-10">

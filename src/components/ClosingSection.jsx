@@ -13,7 +13,7 @@ const ClosingSection = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
                         Let’s Build a Smarter<br />Digital Future Together
                     </h2>
                     <p className="text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-12">
@@ -37,10 +37,10 @@ const ClosingSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.2 }}
-                    className="bg-white/10 backdrop-blur-md p-12 rounded-3xl mb-16"
+                    className="bg-white/10 backdrop-blur-md p-6 md:p-12 rounded-3xl mb-16"
                 >
-                    <h3 className="text-3xl font-bold mb-8 text-center">Get in Touch with Creatzion Technology</h3>
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">Get in Touch with Creatzion Technology</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="flex items-start space-x-4">
                             <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
                                 <Mail size={24} />

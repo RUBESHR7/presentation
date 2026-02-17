@@ -52,7 +52,7 @@ const TimelineSection = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-5xl font-bold text-gray-900 mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                         Implementation <span className="gradient-text">Roadmap</span>
                     </h2>
                     <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -74,13 +74,13 @@ const TimelineSection = () => {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.8, delay: index * 0.2 }}
-                                className={`relative flex items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                                className={`relative flex flex-col md:items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                                     }`}
                             >
                                 {/* Content Card */}
                                 <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
-                                    <div className="glass-card p-8 rounded-2xl hover-lift">
-                                        <div className="flex items-center justify-between mb-4">
+                                    <div className="glass-card p-6 md:p-8 rounded-2xl hover-lift">
+                                        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-4 gap-2">
                                             <span className={`bg-${phase.color}-100 text-${phase.color}-800 px-4 py-2 rounded-full text-sm font-bold`}>
                                                 {phase.phase}
                                             </span>
@@ -119,9 +119,9 @@ const TimelineSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.8 }}
-                    className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 p-12 rounded-3xl text-white text-center"
+                    className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 p-6 md:p-12 rounded-3xl text-white text-center"
                 >
-                    <h3 className="text-3xl font-bold mb-4">Complete Digital Transformation in 6 Months</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold mb-4">Complete Digital Transformation in 6 Months</h3>
                     <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
                         Phased implementation ensures minimal disruption while delivering maximum value at each stage
                     </p>

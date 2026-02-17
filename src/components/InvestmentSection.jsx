@@ -35,7 +35,7 @@ const InvestmentSection = () => {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-5xl font-bold text-gray-900 mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                         Investment for <span className="gradient-text">Digital Transformation</span>
                     </h2>
                     <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -51,7 +51,7 @@ const InvestmentSection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: index * 0.2 }}
-                            className={`relative glass-card p-8 rounded-3xl hover-lift ${plan.popular ? 'ring-4 ring-blue-600' : ''
+                            className={`relative glass-card p-6 md:p-8 rounded-3xl hover-lift ${plan.popular ? 'ring-4 ring-blue-600' : ''
                                 }`}
                         >
                             {plan.popular && (
@@ -108,10 +108,10 @@ const InvestmentSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-500 p-12 rounded-3xl text-center"
+                    className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-500 p-6 md:p-12 rounded-3xl text-center"
                 >
-                    <h3 className="text-3xl font-bold text-gray-900 mb-4">Why This is an Investment, Not a Cost</h3>
-                    <div className="grid md:grid-cols-3 gap-8 mt-8">
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Why This is an Investment, Not a Cost</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
                         <div>
                             <div className="text-4xl font-bold text-green-600 mb-2">70%</div>
                             <p className="text-gray-700 font-semibold">Reduction in Administrative Time</p>
