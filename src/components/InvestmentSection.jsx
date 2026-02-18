@@ -7,15 +7,14 @@ const InvestmentSection = () => {
         {
             name: 'Investment Plan',
             subtitle: 'Setup + Monthly Subscription',
-            price: '₹1,50,000',
+            price: '₹1.5L - ₹2L',
             period: 'Setup Fee',
-            monthly: '₹15,000/month',
+            monthly: '₹15k - ₹20k/month',
             features: [
                 'Complete platform development',
                 'Website + Mobile Apps',
                 'Admin Dashboard',
                 'Payment Gateway Integration',
-                'Staff Training (2 sessions)',
                 'Monthly maintenance & updates',
                 '24/7 Priority support',
                 'Cloud hosting included',

@@ -4,7 +4,7 @@ import { Check, X, HelpCircle, Info } from 'lucide-react';
 
 const PriceComparison = () => {
     const comparisonData = [
-        { feature: 'Setup Cost', creatzion: 'Affordable Setup', market: 'High (₹2L–₹3L)' },
+        { feature: 'Setup Cost', creatzion: 'Affordable Setup', market: 'High (₹6L–₹9L)' },
         { feature: 'Annual Maintenance', creatzion: 'Flexible Pricing', market: 'Rigid Annual Contracts' },
         { feature: 'Monthly Subscription', creatzion: 'Transparent & Low', market: 'Often Hidden / High' },
         { feature: 'Per Student Cost', creatzion: 'Optimized', market: 'Higher Charges' },

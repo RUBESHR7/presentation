@@ -87,7 +87,7 @@ const BenefitsSection = () => {
                     className="mt-16 grid md:grid-cols-3 gap-8"
                 >
                     <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
-                        <div className="text-4xl font-bold text-blue-600 mb-2">70%</div>
+                        <div className="text-4xl font-bold text-blue-600 mb-2">85%</div>
                         <p className="text-gray-700 font-semibold">Time Saved</p>
                     </div>
                     <div className="bg-white p-8 rounded-2xl shadow-lg text-center">

@@ -25,9 +25,9 @@ const KeyAdvantages = () => {
             desc: "Rapid deployment without multi-month waiting periods."
         },
         {
-            icon: <Users size={32} />,
-            title: "Personalized Training",
-            desc: "Hands-on support to ensure your staff is comfortable."
+            icon: <Heart size={32} />,
+            title: "Dedicated Support",
+            desc: "We stand by you with direct, responsive technical assistance."
         },
         {
             icon: <Award size={32} />,

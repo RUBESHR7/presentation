@@ -56,7 +56,7 @@ const ClosingSection = () => {
                             </div>
                             <div>
                                 <p className="font-semibold mb-1">Call Us</p>
-                                <p className="text-blue-100">+91 98765 43210</p>
+                                <p className="text-blue-100">+91 90429 18524</p>
                             </div>
                         </div>
                         <div className="flex items-start space-x-4">
@@ -65,7 +65,7 @@ const ClosingSection = () => {
                             </div>
                             <div>
                                 <p className="font-semibold mb-1">Visit Us</p>
-                                <p className="text-blue-100">Mumbai, India</p>
+                                <p className="text-blue-100">Chennai, India</p>
                             </div>
                         </div>
                     </div>

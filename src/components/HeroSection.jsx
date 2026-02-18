@@ -4,7 +4,7 @@ import { ArrowRight, Laptop, Smartphone } from 'lucide-react';
 
 const HeroSection = () => {
     return (
-        <div className="section min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 pt-24 lg:pt-32 flex items-center">
+        <div className="section min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 pt-32 lg:pt-48 flex items-center">
             <div className="max-w-7xl mx-auto px-6 w-full">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
                     {/* Left Content */}
